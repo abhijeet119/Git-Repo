@@ -1,0 +1,22 @@
+{
+  "id": "ab8ba0f4-8a13-45e7-9a77-8637b32bcd89",
+  "name": "budgethelp",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "budget help",
+      "synonyms": [
+        "budget help",
+        "budgeting help"
+      ]
+    },
+    {
+      "value": "budgeting advice",
+      "synonyms": [
+        "budgeting advice"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

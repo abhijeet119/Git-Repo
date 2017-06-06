@@ -1,0 +1,73 @@
+{
+  "userSays": [
+    {
+      "id": "1484e83c-a2ef-40a7-82db-44069bcd5321",
+      "data": [
+        {
+          "text": "Ofcourse"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3bb2fa30-ac25-43ce-8e9c-914cc252b0e4",
+      "data": [
+        {
+          "text": "Correct"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6dde293c-d477-4421-b62f-7633b3a7458f",
+      "data": [
+        {
+          "text": "Yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "43dc85fb-b5ad-4f0d-8e95-ab8a81099275",
+  "name": "1.1PRB4005160 Compose-Yes",
+  "auto": true,
+  "contexts": [
+    "Compose4005160",
+    "Resolution4005160"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Yes4005160Compose",
+          "lifespan": 5
+        },
+        {
+          "name": "Resolution4005160",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "name": "compose4005160",
+          "value": "Yes"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Resolution:\nOn a case when the user is doing an FFI award and the customer is entitled to some Arrears the following action should be taken:\n\nFLSM/User – As a workaround the user needs to follow the below steps\n\n1.\tThe user should go into the overpayment/underpayment view, click on calculate overpayment/underpayment\n2.\tThe user is then advised to select the incorrect component (eg. ‘Cat A basic pension’) and update the component with a correct component (like ‘New State Pension’ or ‘Protected Payment’ or ‘ESP’ or ‘ESP Inherited’) from the dropdown\n3.\tClick calculate and then click on Make payment"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

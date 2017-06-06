@@ -1,0 +1,124 @@
+{
+  "userSays": [
+    {
+      "id": "6562b5d4-407a-410d-a4ad-f21c338e0f2c",
+      "data": [
+        {
+          "text": "I am getting error "
+        },
+        {
+          "text": "E6428",
+          "alias": "PRB4083177",
+          "meta": "@PRB4083177",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "eead9e7a-3e5f-40b6-87e9-de0c9cf090a5",
+      "data": [
+        {
+          "text": "I am getting error "
+        },
+        {
+          "text": "E6642",
+          "alias": "PRB4083177",
+          "meta": "@PRB4083177",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "37492470-0dff-4bc3-8603-2a8218fbc6c1",
+      "data": [
+        {
+          "text": "The user reported error \u0027"
+        },
+        {
+          "text": "E6642",
+          "alias": "PRB4083177",
+          "meta": "@PRB4083177",
+          "userDefined": true
+        },
+        {
+          "text": " Error:"
+        },
+        {
+          "text": "Record not found at this office-F1 for national search\u0027 on clicking Close RM Case button",
+          "alias": "PRB4083177",
+          "meta": "@PRB4083177",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "406740ee-ef33-4494-8001-d4d29ab37fa0",
+      "data": [
+        {
+          "text": "The user reported error ‘"
+        },
+        {
+          "text": "E6428",
+          "alias": "PRB4083177",
+          "meta": "@PRB4083177",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "NO TRACE OF NINO AT OFFICE INDICATED BY DCI RECORD",
+          "alias": "PRB4083177",
+          "meta": "@PRB4083177",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "893a1a3f-3982-4b25-b65a-a16ef86a5d60",
+  "name": "ComposePRB4083177",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Compose1",
+          "lifespan": 5
+        },
+        {
+          "name": "Resolution1",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@PRB4083177",
+          "name": "PRB4083177",
+          "value": "$PRB4083177",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "OK ... Would you like to see the Resolution?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

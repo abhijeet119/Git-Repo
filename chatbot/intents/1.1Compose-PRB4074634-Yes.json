@@ -1,0 +1,63 @@
+{
+  "userSays": [
+    {
+      "id": "62db92eb-d5a4-443f-8c93-77c32dd6c5a3",
+      "data": [
+        {
+          "text": "Correct"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e2ab7ecc-e65b-4d76-919f-f250c1aeb570",
+      "data": [
+        {
+          "text": "Yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "13f5c641-1121-464d-a0d0-10662ab0e7e6",
+  "name": "1.1Compose-PRB4074634-Yes",
+  "auto": true,
+  "contexts": [
+    "compose4074634",
+    "Resolution74634"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Yes-4074634Compose",
+          "lifespan": 5
+        },
+        {
+          "name": "Resolution13265",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "name": "compose4074634",
+          "value": "Yes"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Resolution:\nThis is a known user error issue where the agent makes changes to the claimants name using Edit Claim Data and Levers instead of reporting a CoC journey.\nProblem PRB4074634 has been raised to address this issue.\nThere is a user workaround available. Please follow below steps –\n1.\tLaunch Universal Credit from CAMLite.\n2.\tClick on ‘Edit claim data and levers’\n3.\tClick on \u0027Current award\u0027\n4.\tThe user then needs to modify the affected name so that is matches the below rules:\n•\tFirst name – Mandatory.\n\tMax 35 alphabet characters\n\tAllowable characters are: Alphabets, Apostrophe (\u0027), Full Stop (.), Hyphen (-)\n\tSpaces not allowed.\n\tFirst character must be uppercase Alphabet. \n\tLast character must not be punctuation. \n\tConsecutive punctuation characters not allowed\"\n\n•\tMiddle name - Optional. \n\tMax 35 alphabet characters \n\tAllowable characters are: Alphabets, Apostrophe (\u0027), Full Stop (.), Hyphen (-), space ( ).\n\tFirst character must be uppercase Alphabet.\n\t Last character must not be punctuation.\n\t Consecutive spaces not allowed. \n\tConsecutive punctuation characters not allowed. \n\tSpaces before or after punctuation not allowed.\n\n•\tSurname - Mandatory. \n\tMax 35 alphabet characters\n\t Allowable characters: Alphabet, Apostrophe (\u0027), Full Stop (.), Hyphen (-), space ( ).\n\tFirst character must be uppercase Alphabet. \n\tLast character must not be punctuation. \n\tConsecutive spaces not allowed. \n\tConsecutive punctuation characters not allowed. \n\tSpaces before or after punctuation not allowed.\n5.\tMark the \u0027Marked for Verification flag\u0027 as ‘Yes’ under \u0027Award Processing Flags\u0027 section.\n6.\tMark \u0027RTE\u0027 as \u0027Send Registration\u0027 under \u0027External System Registrations\u0027 section\n7.\tClick the \u0027Save\u0027 button at the bottom of the page\n8.\tLogin to Claim Admin\n9.\tClick on ‘View Evidence’\n10.\tComplete the verification.\n11.\tWait for 2 hours\n12.\tClick on ‘Edit Claim Data and Levers’\n13.\tClick on \u0027Current award\u0027\n14.\tMark the \u0027Marked for Verification flag\u0027 as ‘Yes’ under \u0027Award Processing Flags\u0027 section.\n15 . Click the \u0027Save\u0027 button at the bottom of the page"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

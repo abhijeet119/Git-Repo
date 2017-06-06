@@ -1,0 +1,23 @@
+{
+  "id": "9068e416-20f1-4851-96ae-979b1caac1df",
+  "name": "extraaPay",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "extra pay",
+      "synonyms": [
+        "extra pay",
+        "Paid too much",
+        "extra paid"
+      ]
+    },
+    {
+      "value": "Pays extra",
+      "synonyms": [
+        "Pays extra"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

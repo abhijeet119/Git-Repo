@@ -1,0 +1,23 @@
+{
+  "id": "8db08ee3-915a-4fab-9ae8-16399bb7fd08",
+  "name": "Interview",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Interview",
+      "synonyms": [
+        "Interview",
+        "UC Interview",
+        "Universal Credit Interview"
+      ]
+    },
+    {
+      "value": "successful",
+      "synonyms": [
+        "successful"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

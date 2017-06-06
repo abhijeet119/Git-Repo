@@ -1,0 +1,28 @@
+{
+  "id": "7052cd4e-9635-46b5-a6bf-78341599cce1",
+  "name": "Report_Change",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Changes Report",
+      "synonyms": [
+        "Change Report",
+        "Changes i need to report"
+      ]
+    },
+    {
+      "value": "changes",
+      "synonyms": [
+        "changes"
+      ]
+    },
+    {
+      "value": "report",
+      "synonyms": [
+        "report"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

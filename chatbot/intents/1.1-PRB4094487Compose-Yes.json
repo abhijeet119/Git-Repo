@@ -1,0 +1,63 @@
+{
+  "userSays": [
+    {
+      "id": "ffb4dd44-1bf0-4916-a2ef-9cea5f2d2d71",
+      "data": [
+        {
+          "text": "Correct"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3c371e1a-e6bb-475e-8bbc-7ad90fa28f97",
+      "data": [
+        {
+          "text": "Yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b94f3ba4-98c7-47eb-af03-b96fc4920024",
+  "name": "1.1-PRB4094487Compose-Yes",
+  "auto": true,
+  "contexts": [
+    "Compose",
+    "Resolution"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Yes-Resolution",
+          "lifespan": 2
+        },
+        {
+          "name": "Resolution",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Compose",
+          "value": "Yes"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Resolution : \n\nThe user had reported they can see cases in the My Cases view that do not belong to them OR Some users have reported that their cases are missing.\nThe issue is presented due to incorrect business process wherein current user (or any other user) tried to update case owner when the already initiated task assignment was in progress. \n\nA Working to Specification Problem PRB4094487 has been raised for the same.\nFor resolving the discrepancy, ITSM need to re-assign the case to the correct owner."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

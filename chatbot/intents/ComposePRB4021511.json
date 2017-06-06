@@ -1,0 +1,65 @@
+{
+  "userSays": [
+    {
+      "id": "ba33717c-33e3-4c9a-9e9b-00d4f238c872",
+      "data": [
+        {
+          "text": "User reported that they had access to the functionality in the past and the New CRN Customer button was suddenly greyed out."
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+    {
+      "id": "94ea2831-aade-42c9-af6c-f6774bbc409b",
+      "data": [
+        {
+          "text": "Users were not able to create a new CRN as  New CRN Customer  button was disabled in Customer screen"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+    {
+      "id": "55a9087d-f097-4edd-890f-2691948941d7",
+      "data": [
+        {
+          "text": "unable to create new CRN record"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    }
+  ],
+  "id": "3255e05c-e620-44d4-858c-a8dffa28094e",
+  "name": "ComposePRB4021511",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Compose4021511",
+          "lifespan": 5
+        },
+        {
+          "name": "Resolution4021511",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ok... Would you like to see the Resolution?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

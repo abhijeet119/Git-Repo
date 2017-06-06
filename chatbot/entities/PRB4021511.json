@@ -1,0 +1,27 @@
+{
+  "id": "3e303e66-235e-45ee-b5e6-d31fa042ab23",
+  "name": "PRB4021511",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Users were not able to create a new CRN as New CRN Customer button was disabled in Customer screen. User reported that they had access to the functionality in the past and the button was suddenly greyed out.",
+      "synonyms": [
+        "Users were not able to create a new CRN as New CRN Customer button was disabled in Customer screen. User reported that they had access to the functionality in the past and the button was suddenly greyed out."
+      ]
+    },
+    {
+      "value": "CAMLite – Users unable to create new CRN record.",
+      "synonyms": [
+        "CAMLite – Users unable to create new CRN record."
+      ]
+    },
+    {
+      "value": "New CRN Customer  button is greyed out.",
+      "synonyms": [
+        "New CRN Customer  button is greyed out."
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

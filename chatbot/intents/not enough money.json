@@ -1,0 +1,103 @@
+{
+  "userSays": [
+    {
+      "id": "059f64f4-eea6-4fd3-9006-12720fa889b8",
+      "data": [
+        {
+          "text": "without money",
+          "alias": "nomoney",
+          "meta": "@nomoney",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ba51dfb0-cb71-4b32-99e1-eefddc757f84",
+      "data": [
+        {
+          "text": "no money",
+          "alias": "nomoney",
+          "meta": "@nomoney",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1de0a8d1-cab1-4d4a-bf64-9bcd7dc8f5ab",
+      "data": [
+        {
+          "text": "i dont have "
+        },
+        {
+          "text": "enough money",
+          "alias": "nomoney",
+          "meta": "@nomoney",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9aad1ea1-8ce0-4195-a334-5f63e173eed3",
+      "data": [
+        {
+          "text": "i dont have any money left"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "402c71ee-7fd3-41fd-aa8f-bac2c0eb31e7",
+      "data": [
+        {
+          "text": "I am left without "
+        },
+        {
+          "text": "no money",
+          "alias": "nomoney",
+          "meta": "@nomoney",
+          "userDefined": true
+        },
+        {
+          "text": " to live on"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "8f65fc05-1999-437d-aaf5-c1dd7f6c43ec",
+  "name": "not enough money",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@nomoney",
+          "name": "nomoney",
+          "value": "$nomoney"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Call the Universal Credit helpline to ask for an advance if your change in circumstances means you won’t have enough money to live on before your next payment."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

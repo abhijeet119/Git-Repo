@@ -1,0 +1,94 @@
+{
+  "userSays": [
+    {
+      "id": "305f410d-070f-4041-9a07-b4ed2d7afa11",
+      "data": [
+        {
+          "text": "budget advice",
+          "alias": "budgethelp",
+          "meta": "@budgethelp",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "77ef38ab-2a2b-414f-8a6c-b3c29c072101",
+      "data": [
+        {
+          "text": "budget help",
+          "alias": "budgethelp",
+          "meta": "@budgethelp",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "320f715c-4f0c-4d82-a903-bb31f8e6ebc3",
+      "data": [
+        {
+          "text": "how can i get "
+        },
+        {
+          "text": "budgeting advice",
+          "alias": "budgethelp",
+          "meta": "@budgethelp",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "51c84bc4-3564-4252-8d06-d50ed573788c",
+      "data": [
+        {
+          "text": "how can i get "
+        },
+        {
+          "text": "budgeting help",
+          "alias": "budgethelp",
+          "meta": "@budgethelp",
+          "userDefined": true
+        },
+        {
+          "text": " or advice"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "8f3fd923-24dd-4a5f-b69d-b71b88cf5652",
+  "name": "Get Budget help",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "budget.help",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@budgethelp",
+          "name": "budgethelp",
+          "value": "$budgethelp"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "You can get help and advice with budgeting from:\n\n1. Your Jobcentre Plus work coach\n2. Money Advice Service\n3. Citizen’s Advice\n4. Money Advice Trust\n5. The Money Charity\nYou can get advice and help about renting from Shelter."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

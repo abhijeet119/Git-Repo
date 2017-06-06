@@ -1,0 +1,35 @@
+{
+  "id": "e8b9ecfb-4a42-40b9-a37b-c7d144ce8e6c",
+  "name": "UCPartner",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "UC Partner",
+      "synonyms": [
+        "UC Partner",
+        "Partner with UC benefit",
+        "Partner with Universal Credit"
+      ]
+    },
+    {
+      "value": "my partner",
+      "synonyms": [
+        "my partner"
+      ]
+    },
+    {
+      "value": "move in",
+      "synonyms": [
+        "move in"
+      ]
+    },
+    {
+      "value": "moved in with my partner",
+      "synonyms": [
+        "moved in with my partner"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

@@ -1,0 +1,42 @@
+{
+  "userSays": [],
+  "id": "48883e72-3133-4e54-8043-4580f1c2fdbd",
+  "name": "1.1ComposePR13265-Yes",
+  "auto": true,
+  "contexts": [
+    "compose13265",
+    "Resolution13265"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "yes-13265-Resolution",
+          "lifespan": 5
+        },
+        {
+          "name": "Resolution13265",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "name": "ComposePR13262",
+          "value": "Yes"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Resolution:\nThe user should not have created the new MOP record on CAM with frequency as ‘Quarterly’ because the MOP record from ISCS was already retrieved with frequency ‘Weekly’. On sending this MOP down ISCS automatically adjust itself to the normal 13wks. \n\nThe user need not explicitly change the frequency to ‘Quarterly’ since ISCS does it automatically when the amount to be paid out is low."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

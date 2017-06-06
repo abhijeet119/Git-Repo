@@ -1,0 +1,18 @@
+{
+  "id": "a480aa59-f385-42bb-ae26-0b3293784a03",
+  "name": "Get",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Get",
+      "synonyms": [
+        "Get",
+        "Getting",
+        "gets",
+        "Got"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

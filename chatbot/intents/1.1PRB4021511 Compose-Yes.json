@@ -1,0 +1,63 @@
+{
+  "userSays": [
+    {
+      "id": "3e4d828b-8a4f-4458-b64b-334006b4c1d4",
+      "data": [
+        {
+          "text": "Correct"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7dfafa9f-553f-45b5-857c-769a3e501d6b",
+      "data": [
+        {
+          "text": "Yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "bbe8cf17-3dd4-4695-bf4c-628a9e0a00f9",
+  "name": "1.1PRB4021511 Compose-Yes",
+  "auto": true,
+  "contexts": [
+    "Compose4021511",
+    "Resolution4021511"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Yes4021511-Resolution",
+          "lifespan": 5
+        },
+        {
+          "name": "Resolution4021511",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Compose4021511",
+          "value": "Yes"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Resolution:\nRequest FLSM to correct the User responsibility setup as per Visibility Matrix and assign the responsibility ‘CRN Customer Manager’ back to the agent."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

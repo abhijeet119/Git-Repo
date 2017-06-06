@@ -1,0 +1,47 @@
+{
+  "id": "8c141a05-29d7-4cc3-8cb1-2625e0444626",
+  "name": "Eligibility_Hardship",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Hardship eligibility",
+      "synonyms": [
+        "Hardship eligibility",
+        "hardship payment eligibility",
+        "eligible for hardship payment"
+      ]
+    },
+    {
+      "value": "can i get",
+      "synonyms": [
+        "can i get"
+      ]
+    },
+    {
+      "value": "eligibility for hardship payment",
+      "synonyms": [
+        "eligibility for hardship payment"
+      ]
+    },
+    {
+      "value": "hardship payment eligible",
+      "synonyms": [
+        "hardship payment eligible"
+      ]
+    },
+    {
+      "value": "eligible hardship",
+      "synonyms": [
+        "eligible hardship"
+      ]
+    },
+    {
+      "value": "eligible for hardship",
+      "synonyms": [
+        "eligible for hardship"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

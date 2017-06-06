@@ -1,0 +1,21 @@
+{
+  "id": "3285d0bb-2aba-4583-b266-3a128d80e3a5",
+  "name": "Claim_Other_Benefit",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Other Benefit",
+      "synonyms": [
+        "Other Benefit"
+      ]
+    },
+    {
+      "value": "claiming other benefit",
+      "synonyms": [
+        "claiming other benefit"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

@@ -1,0 +1,23 @@
+{
+  "id": "4d5bd293-f659-48a4-940d-c969b7889a2c",
+  "name": "Eligibility_failed",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Non Eligible",
+      "synonyms": [
+        "Non Eligible",
+        "not eligible",
+        "eligibility failed"
+      ]
+    },
+    {
+      "value": "isn\u0027t eligible",
+      "synonyms": [
+        "isn\u0027t eligible"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

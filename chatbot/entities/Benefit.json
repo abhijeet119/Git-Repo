@@ -1,0 +1,22 @@
+{
+  "id": "3e3cfa14-d962-40c4-a67c-95934458346f",
+  "name": "Benefit",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Universal Credit",
+      "synonyms": [
+        "Universal Credit",
+        "UC"
+      ]
+    },
+    {
+      "value": "Benefit",
+      "synonyms": [
+        "Benefit"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

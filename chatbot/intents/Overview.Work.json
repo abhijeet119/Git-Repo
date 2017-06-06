@@ -1,0 +1,68 @@
+{
+  "userSays": [
+    {
+      "id": "5f5c7ba9-a8c8-4e79-a231-41c11961837b",
+      "data": [
+        {
+          "text": "How does it "
+        },
+        {
+          "text": "work",
+          "alias": "Work",
+          "meta": "@Work",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4665c3a8-e656-4881-aa55-db15caa423d4",
+      "data": [
+        {
+          "text": "How it "
+        },
+        {
+          "text": "works",
+          "alias": "Work",
+          "meta": "@Work",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "1e607ce3-1e29-4386-ade5-8a5360a59ca6",
+  "name": "Overview.Work",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Work",
+          "name": "Work",
+          "value": "$Work",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "There’s no limit to the number of hours you can work a week if you get Universal Credit.\n\nYour payment will reduce gradually as you earn more. You won’t lose all your benefits at once if you’re on a low income."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

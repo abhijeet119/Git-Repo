@@ -1,0 +1,88 @@
+{
+  "userSays": [
+    {
+      "id": "488bcd24-b702-4dd2-820c-3a0331bc86c1",
+      "data": [
+        {
+          "text": "\n Users have reported that they can see cases in the My Cases view that do not belong to them"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+    {
+      "id": "5700da95-7698-4990-bdd2-8c494651a4d8",
+      "data": [
+        {
+          "text": "Case seen in "
+        },
+        {
+          "text": "incorrect user queue",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " or gone missing"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+    {
+      "id": "c9b09cb5-d4a8-44df-8009-5a5261a8934f",
+      "data": [
+        {
+          "text": "Some users have reported that their "
+        },
+        {
+          "text": "cases are missing",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+    {
+      "id": "7abdf200-95cf-4ca1-ab81-2e6488f9d198",
+      "data": [
+        {
+          "text": "I am not able to see my Case"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    }
+  ],
+  "id": "06696bcf-8167-4ad9-bcf5-0f24f7c3581a",
+  "name": "0.Compose",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Compose",
+          "lifespan": 5
+        },
+        {
+          "name": "Resolution",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Okay.. would you like to see the Resolution ?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

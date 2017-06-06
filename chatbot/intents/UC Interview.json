@@ -1,0 +1,64 @@
+{
+  "userSays": [
+    {
+      "id": "15425602-5c42-4a83-a6b6-b6f57f75ece2",
+      "data": [
+        {
+          "text": "How to attend UC "
+        },
+        {
+          "text": "Interview",
+          "alias": "Interview",
+          "meta": "@Interview",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c317b4b4-9375-4349-b469-0a0f090dd2f3",
+      "data": [
+        {
+          "text": "My application is "
+        },
+        {
+          "text": "successful",
+          "alias": "Interview",
+          "meta": "@Interview",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "165de6b9-2a74-4fe9-a838-e8eaf5c16f47",
+  "name": "UC Interview",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Interview",
+          "name": "Interview",
+          "value": "$Interview"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "If your application’s successful, you’ll be told to arrange an interview at your local Jobcentre Plus.\n\nYou won’t get Universal Credit if you don’t go to the interview.\n\n go to \n\nhttp://los.direct.gov.uk/Default.aspx?AspxAutoDetectCookieSupport\u003d1"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

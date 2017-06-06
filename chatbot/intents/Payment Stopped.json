@@ -1,0 +1,64 @@
+{
+  "userSays": [
+    {
+      "id": "72315ffb-e353-4c36-bdc4-c1622275664e",
+      "data": [
+        {
+          "text": "My payment has been "
+        },
+        {
+          "text": "reduced",
+          "alias": "Payment_stopped_reduced",
+          "meta": "@Payment_stopped_reduced",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "01638fcc-a4e0-47bc-ab79-19859e8ac08b",
+      "data": [
+        {
+          "text": "My payment has been "
+        },
+        {
+          "text": "stopped",
+          "alias": "Payment_stopped_reduced",
+          "meta": "@Payment_stopped_reduced",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "06a6d378-cd3b-4643-bbd8-db5f748ffd2e",
+  "name": "Payment Stopped",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Payment_stopped_reduced",
+          "name": "Payment_stopped_reduced",
+          "value": "$Payment_stopped_reduced"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "If you don’t keep to your Claimant Commitment, your Universal Credit could be stopped or reduced (‘sanctioned’).\n\nIf you receive Council Tax Reduction (also called ‘Council Tax Support’) and get a sanction, contact your local council immediately. They’ll tell you what to do to continue getting support.\n\nIf you get a sanction you can:\n\nask for the decision to be looked at again\nask for a ‘hardship payment’"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,52 @@
+{
+  "userSays": [
+    {
+      "id": "f810d6fa-91f8-43d2-a806-9f06e7d403b5",
+      "data": [
+        {
+          "text": "How to create "
+        },
+        {
+          "text": "case in PTP",
+          "alias": "PTP",
+          "meta": "@PTP",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "e8458c00-8f0d-439e-a953-c52127a2ee7e",
+  "name": "Create_Case_PTP",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Create.Case",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@PTP",
+          "name": "PTP",
+          "value": "$PTP"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "STEP1: Run Inbound journey for Type of Claim e.g. SP , PC etc. \nSTEP2: Go to Contact History and Create New Claim SP or PC.\nSTEP3: Fill all the Details in Identity Details Applet navigate to Customer Case Tab.\nSTEP4: Fill Earliest Claim Date and create Case."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

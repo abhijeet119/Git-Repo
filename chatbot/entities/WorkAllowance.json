@@ -1,0 +1,19 @@
+{
+  "id": "00ee01a2-6f15-4516-8577-c18f1f0310b0",
+  "name": "WorkAllowance",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Work allowance",
+      "synonyms": [
+        "Work allowance",
+        "allowance",
+        "allowance for work",
+        "concession",
+        "stipend"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

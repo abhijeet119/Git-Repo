@@ -1,0 +1,16 @@
+{
+  "id": "ad75f04b-febe-45f2-b4bf-941081ea8187",
+  "name": "Alternativeformat",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Alternative Format",
+      "synonyms": [
+        "Alternative Format",
+        "different format"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

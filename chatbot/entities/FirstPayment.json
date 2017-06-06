@@ -1,0 +1,15 @@
+{
+  "id": "3c80e0d8-fc61-4886-8367-c2233bd601e7",
+  "name": "FirstPayment",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "First Payment",
+      "synonyms": [
+        "First Payment"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

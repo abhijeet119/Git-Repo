@@ -1,0 +1,23 @@
+{
+  "id": "02586feb-9838-4399-9ab4-cc5bb87b90b0",
+  "name": "Claimentcommitment",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Claiment",
+      "synonyms": [
+        "Claiment",
+        "Commitment",
+        "Commitment"
+      ]
+    },
+    {
+      "value": "Claimant Commitment",
+      "synonyms": [
+        "Claimant Commitment"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

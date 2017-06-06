@@ -1,0 +1,125 @@
+{
+  "userSays": [
+    {
+      "id": "6be09072-caf1-4066-aadd-ecc4616381f0",
+      "data": [
+        {
+          "text": "am i "
+        },
+        {
+          "text": "eligible for hardship",
+          "alias": "Eligibility_Hardship",
+          "meta": "@Eligibility_Hardship",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c1d29124-c33b-4153-a187-05e1e6287d68",
+      "data": [
+        {
+          "text": "am i "
+        },
+        {
+          "text": "eligible hardship",
+          "alias": "Eligibility_Hardship",
+          "meta": "@Eligibility_Hardship",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "73e7d980-8048-4f2d-ae17-5eb3f75b8794",
+      "data": [
+        {
+          "text": "hardship payment eligible",
+          "alias": "Eligibility_Hardship",
+          "meta": "@Eligibility_Hardship",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "53738290-8705-4751-b934-10b2ce220273",
+      "data": [
+        {
+          "text": "how to check my "
+        },
+        {
+          "text": "eligibility for hardship payment",
+          "alias": "Eligibility_Hardship",
+          "meta": "@Eligibility_Hardship",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b5e4016c-b595-4584-905a-c6d270164d38",
+      "data": [
+        {
+          "text": "how "
+        },
+        {
+          "text": "can i get",
+          "alias": "Eligibility_Hardship",
+          "meta": "@Eligibility_Hardship",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Hardship payment",
+          "alias": "HardshipPayment",
+          "meta": "@HardshipPayment",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "62a99be3-7473-45c7-b7f0-6f9457a261b7",
+  "name": "Hardship Eligibility",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "eligible.hardship",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Eligibility_Hardship",
+          "name": "Eligibility_Hardship",
+          "value": "$Eligibility_Hardship"
+        },
+        {
+          "dataType": "@HardshipPayment",
+          "name": "HardshipPayment",
+          "value": "$HardshipPayment",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "You can get a hardship payment if you can’t pay for rent, heating, food or hygiene needs for you or your household.\n\nYou must be 18 or over.\n\nEvery case is assessed individually. You’ll have to show that you’ve tried to:\n\n1. Find the money from somewhere else\n2. Only spend money on essentials"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

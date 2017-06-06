@@ -1,0 +1,87 @@
+{
+  "userSays": [
+    {
+      "id": "5d68f02f-2a1d-4b95-8598-436477f50ffe",
+      "data": [
+        {
+          "text": "Am i "
+        },
+        {
+          "text": "eligible",
+          "alias": "Eligibility",
+          "meta": "@Eligibility",
+          "userDefined": true
+        },
+        {
+          "text": " for the claim"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b80be30d-3524-41ba-9af7-52572960e519",
+      "data": [
+        {
+          "text": "how to check "
+        },
+        {
+          "text": "eligibility",
+          "alias": "Eligibility",
+          "meta": "@Eligibility",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5895c3aa-d3bc-4815-8749-ba0003d26744",
+      "data": [
+        {
+          "text": "What is the "
+        },
+        {
+          "text": "Eligibility",
+          "alias": "Eligibility",
+          "meta": "@Eligibility",
+          "userDefined": true
+        },
+        {
+          "text": " for Claiming Universal Credit"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "16b6c44d-f6ab-441c-8c07-3f203bf0e966",
+  "name": "Check.Eligiblity",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Eligibility",
+          "name": "Eligibility",
+          "value": "$Eligibility",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "You can currently claim Universal Credit if you’re either:\n1\ta single person anywhere in England, Wales and Scotland\n2\ta couple or family living in certain areas\nTo get Universal Credit you must:\n3\tbe 18 or over\n4\tbe under State Pension age\n5\tnot be in full time education or training\n6\tnot have savings over £16,000\nYou’ll get less Universal Credit if you have savings over £6,000 or earn enough money to cover your basic living costs.\nIf you live with your partner you’ll need to make a joint claim as a couple. If one of you isn’t eligible, their savings and income will still be taken into account.\nYou may be able to claim Jobseeker’s Allowance or other benefits if you don’t live in a qualifying area or you’re not eligible to claim Universal Credit.\n\n\nOr \n\nYou can go to https://www.gov.uk/universal-credit/eligibility"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

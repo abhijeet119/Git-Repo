@@ -1,0 +1,18 @@
+{
+  "id": "a99b7017-b88a-4a4c-9132-0d9701a9b543",
+  "name": "Pay_Rent",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Pay Rent",
+      "synonyms": [
+        "Pay Rent",
+        "Rent",
+        "paying rent",
+        "paid rent"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

@@ -1,0 +1,16 @@
+{
+  "id": "e95d88b9-163a-4f29-88d4-125221b0aae5",
+  "name": "TaxCredit",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Tax Credit",
+      "synonyms": [
+        "Tax Credit",
+        "Tax"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

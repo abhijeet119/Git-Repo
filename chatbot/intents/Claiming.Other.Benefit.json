@@ -1,0 +1,65 @@
+{
+  "userSays": [
+    {
+      "id": "2d807008-f3d6-420a-a8bb-323b210cdbb2",
+      "data": [
+        {
+          "text": "What if I "
+        },
+        {
+          "text": "claim other benefit",
+          "alias": "Claim_Other_Benefit",
+          "meta": "@Claim_Other_Benefit",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6dc3dbe7-1c1a-4967-a5f4-da8942afd31a",
+      "data": [
+        {
+          "text": "What if I am "
+        },
+        {
+          "text": "claiming other benefit",
+          "alias": "Claim_Other_Benefit",
+          "meta": "@Claim_Other_Benefit",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b9aea9b4-8ad6-4b72-ab2e-95ee32832764",
+  "name": "Claiming.Other.Benefit",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Claim.other.benefit",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Claim_Other_Benefit",
+          "name": "Claim_Other_Benefit",
+          "value": "$Claim_Other_Benefit"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Universal Credit will replace the following:\n\n1. Income-based Jobseeker’s Allowance\n2. Housing Benefit\n3. Working Tax Credit\n4. Child Tax Credit\n5. Income-related Employment and Support Allowance\n6. Income Support\n7. If you’re already claiming benefits, your local Jobcentre Plus or Tax Credits office will tell you when you have to move to Universal Credit."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

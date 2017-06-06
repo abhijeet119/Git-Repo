@@ -1,0 +1,84 @@
+{
+  "userSays": [
+    {
+      "id": "a12e6114-aebf-4376-bf71-fbd6b661193b",
+      "data": [
+        {
+          "text": "How do you "
+        },
+        {
+          "text": "pay",
+          "alias": "Payment",
+          "meta": "@Payment",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "be532f68-3ab6-459c-b43c-ac557a4b9095",
+      "data": [
+        {
+          "text": "what is the mode of "
+        },
+        {
+          "text": "payment",
+          "alias": "Payment",
+          "meta": "@Payment",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "293dcc94-afc2-49a9-b560-30e32f5888c2",
+      "data": [
+        {
+          "text": "How i will get "
+        },
+        {
+          "text": "paid",
+          "alias": "Payment",
+          "meta": "@Payment",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "c0ba611c-e74e-4410-9be0-62aa0c6063a2",
+  "name": "Payment.Mode",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Payment.Steps",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Payment",
+          "name": "Payment",
+          "value": "$Payment"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "It’ll be paid once a month, usually into your bank, building society or credit union account.  If you live with your partner and you both claim Universal Credit, you’ll receive a single payment that covers you both."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

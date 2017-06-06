@@ -1,0 +1,111 @@
+{
+  "userSays": [
+    {
+      "id": "a21d95ff-3866-4745-9778-770ee9fe3b41",
+      "data": [
+        {
+          "text": " "
+        },
+        {
+          "text": "isn\u0027t eligible",
+          "alias": "Eligibility_failed",
+          "meta": "@Eligibility_failed",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b4fceff6-3938-499f-a397-a1cf023192ac",
+      "data": [
+        {
+          "text": "eligibility failed",
+          "alias": "Eligibility_failed",
+          "meta": "@Eligibility_failed",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2b9bf6fa-d5ab-4e69-94ea-d2079f4c24b7",
+      "data": [
+        {
+          "text": "not eligible",
+          "alias": "Eligibility_failed",
+          "meta": "@Eligibility_failed",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7f8056e7-06df-477e-ba4a-79b50a356e3a",
+      "data": [
+        {
+          "text": "non eligible",
+          "alias": "Eligibility_failed",
+          "meta": "@Eligibility_failed",
+          "userDefined": true
+        },
+        {
+          "text": " criteria"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f86135cb-1f24-4af9-98ca-9f188645aa94",
+      "data": [
+        {
+          "text": "How i am an "
+        },
+        {
+          "text": "non eligible",
+          "alias": "Eligibility_failed",
+          "meta": "@Eligibility_failed",
+          "userDefined": true
+        },
+        {
+          "text": " applicant"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "196e606e-4b4d-44a1-a9fe-63b36b7422c2",
+  "name": "Non Eligible",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "failed.eligibility",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Eligibility_failed",
+          "name": "Eligibility_failed",
+          "value": "$Eligibility_failed",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "You can’t claim Universal Credit if you already get:\n1.\tIncome Support\n2.\tIncome-based Jobseeker’s Allowance\n3.\tIncome-related Employment and Support Allowance\n4.\tIncome-related Incapacity Benefit\n\n\nor go to https://www.gov.uk/universal-credit/eligibility"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

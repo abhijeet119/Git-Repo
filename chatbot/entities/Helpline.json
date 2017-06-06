@@ -1,0 +1,19 @@
+{
+  "id": "06b1f259-8fb9-4b84-9643-25e57f27558f",
+  "name": "Helpline",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Helpline",
+      "synonyms": [
+        "Helpline",
+        "help",
+        "customer care",
+        "hotline",
+        "helpdesk"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

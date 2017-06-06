@@ -1,0 +1,66 @@
+{
+  "userSays": [
+    {
+      "id": "b5e28dd9-2f67-4bfa-91d1-acdd325a07e5",
+      "data": [
+        {
+          "text": "How i will get "
+        },
+        {
+          "text": "work allowance",
+          "alias": "WorkAllowance",
+          "meta": "@WorkAllowance",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "56e2f55b-7281-4145-a1fe-42db4f889cd1",
+      "data": [
+        {
+          "text": "What is "
+        },
+        {
+          "text": "work allowance",
+          "alias": "WorkAllowance",
+          "meta": "@WorkAllowance",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d2018c41-f84c-4d49-ad5e-96c0a73108f0",
+  "name": "Work.Allowances",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "work.allowance",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@WorkAllowance",
+          "name": "WorkAllowance",
+          "value": "$WorkAllowance",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Your Universal Credit payment will reduce gradually as you earn more. For every £1 you earn your Universal Credit payment will be reduced by 65p.\n\nYou can earn a certain amount before your Universal Credit is reduced if you or your partner either:\n\n1. Are responsible for a child or young person\n2. Have a disability or health condition that affects your ability to work\nThis is called a ‘work allowance’.\n\nYour work allowance will be lower if you get help with housing costs."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

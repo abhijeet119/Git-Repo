@@ -1,0 +1,33 @@
+{
+  "id": "591b0dd1-14f1-4335-97ba-f271daade49d",
+  "name": "PRB4005160",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Entry must equal the sum of all components entered error on make payment for an NSP customer",
+      "synonyms": [
+        "Entry must equal the sum of all components entered error on make payment for an NSP customer"
+      ]
+    },
+    {
+      "value": "The user was trying to issue arrears for an NSP customer while progressing an SPCC case. Within the Payment Entry view, the user added the Cat A basic pension component with the arrears amount and payment date period.",
+      "synonyms": [
+        "The user was trying to issue arrears for an NSP customer while progressing an SPCC case. Within the Payment Entry view, the user added the Cat A basic pension component with the arrears amount and payment date period."
+      ]
+    },
+    {
+      "value": "On Make payment the user received the Entry – must equal the sum of all Payable Components entered error. As per PSCS analysis, the error is occurring as PSCS is expecting an amount in the nsp-payable-components node in the IB-PXP request.  As per IB analysis, this node is mapped to the fields on CAM which correspond to the New State Pension, Protected Payment, ESP and ESP Inherited components.",
+      "synonyms": [
+        "On Make payment the user received the Entry – must equal the sum of all Payable Components entered error. As per PSCS analysis, the error is occurring as PSCS is expecting an amount in the nsp-payable-components node in the IB-PXP request.  As per IB analysis, this node is mapped to the fields on CAM which correspond to the New State Pension, Protected Payment, ESP and ESP Inherited components."
+      ]
+    },
+    {
+      "value": "An amount has not been populated in the fields corresponding to these components as the user has incorrectly added the Cat A basic pension component instead of an NSP component. Ideally for NSP customers, if the user needs to issue arrears for the customer, the user needs to add an NSP component in the payment entry view and then click on make payment.",
+      "synonyms": [
+        "An amount has not been populated in the fields corresponding to these components as the user has incorrectly added the Cat A basic pension component instead of an NSP component. Ideally for NSP customers, if the user needs to issue arrears for the customer, the user needs to add an NSP component in the payment entry view and then click on make payment."
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

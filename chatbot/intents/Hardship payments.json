@@ -1,0 +1,66 @@
+{
+  "userSays": [
+    {
+      "id": "30822f68-dbbf-4ec6-a7ef-75bb67114721",
+      "data": [
+        {
+          "text": "How can i claim "
+        },
+        {
+          "text": "hardship payments",
+          "alias": "HardshipPayment",
+          "meta": "@HardshipPayment",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "97189b6a-2353-4e5b-bbc0-776019554b44",
+      "data": [
+        {
+          "text": "What is "
+        },
+        {
+          "text": "hardship payment",
+          "alias": "HardshipPayment",
+          "meta": "@HardshipPayment",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "8f9d1425-5b94-4e75-a49d-6950a0f1de21",
+  "name": "Hardship payments",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "hardship.payment",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@HardshipPayment",
+          "name": "HardshipPayment",
+          "value": "$HardshipPayment",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "You may be able to get a hardship payment if you get a sanction. You’ll repay it through your Universal Credit payments - they’ll be lower until you pay it back.\n\nA hardship payment is a reduced amount of your Universal Credit."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

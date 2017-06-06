@@ -1,0 +1,75 @@
+{
+  "userSays": [
+    {
+      "id": "9af31e43-1ac5-44dc-8182-39edfc6dfdf7",
+      "data": [
+        {
+          "text": "moved in with my partner",
+          "alias": "UCPartner",
+          "meta": "@UCPartner",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5814c8cf-c6b9-462b-b858-ff05437c3d90",
+      "data": [
+        {
+          "text": "What if I "
+        },
+        {
+          "text": "move in",
+          "alias": "UCPartner",
+          "meta": "@UCPartner",
+          "userDefined": true
+        },
+        {
+          "text": " with "
+        },
+        {
+          "text": "my partner",
+          "alias": "UCPartner",
+          "meta": "@UCPartner",
+          "userDefined": true
+        },
+        {
+          "text": " who\u0027s on Universal Credit"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "61be7ac9-1b2a-4ecd-9622-20c5b4ba6d8f",
+  "name": "UC Partner",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Partner.UCbenefit",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@UCPartner",
+          "name": "UCPartner",
+          "value": "$UCPartner",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "If your partner have Universal Credit benefit then you’ll have to end your other benefits claims.\n\nYour partner’s Universal Credit will become a joint claim and you’ll both have to sign new Claimant Commitments."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

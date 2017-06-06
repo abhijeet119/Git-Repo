@@ -1,0 +1,16 @@
+{
+  "id": "53b512e0-2faf-4398-8cd0-16fd8541f6be",
+  "name": "Move_to_UC",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "move to universal credit",
+      "synonyms": [
+        "move to universal credit",
+        "move to uc"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

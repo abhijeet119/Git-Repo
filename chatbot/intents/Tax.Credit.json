@@ -1,0 +1,84 @@
+{
+  "userSays": [
+    {
+      "id": "a4173342-85fa-42e9-9ad0-6c80f60fc8dd",
+      "data": [
+        {
+          "text": "tax credit",
+          "alias": "TaxCredit",
+          "meta": "@TaxCredit",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f05e5b4b-3958-462b-8419-d25fcf569799",
+      "data": [
+        {
+          "text": "what will happen to my "
+        },
+        {
+          "text": "tax",
+          "alias": "TaxCredit",
+          "meta": "@TaxCredit",
+          "userDefined": true
+        },
+        {
+          "text": " credit if we move to Universal Credit"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "410f35bf-b6e5-4034-a245-6ac02c37446f",
+      "data": [
+        {
+          "text": "What about the "
+        },
+        {
+          "text": "tax credit",
+          "alias": "TaxCredit",
+          "meta": "@TaxCredit",
+          "userDefined": true
+        },
+        {
+          "text": " if we move to UC"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "034f4f10-3e9f-4268-bf99-e013d3192c5e",
+  "name": "Tax.Credit",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "tax.credit",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@TaxCredit",
+          "name": "TaxCredit",
+          "value": "$TaxCredit"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "You’ll be told by HM Revenue and Customs (HMRC) that your tax credits will stop. You then need to end your claim.\n\nIf you have any tax credits overpayments, you still need to pay them back."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

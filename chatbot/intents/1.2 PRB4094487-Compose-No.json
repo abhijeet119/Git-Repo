@@ -1,0 +1,93 @@
+{
+  "userSays": [
+    {
+      "id": "87f6beb7-ea7a-49d6-8d9e-12a50af6dbe6",
+      "data": [
+        {
+          "text": "Thanks"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2e5d2142-7c00-41f9-bb14-8fba86cd4473",
+      "data": [
+        {
+          "text": "Ok"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4f4a7434-e9f6-458b-aa8f-2f1e2119f26b",
+      "data": [
+        {
+          "text": "I don\u0027t want to see resolution"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cf13a995-f6fe-4f62-a0e8-535a201ec109",
+      "data": [
+        {
+          "text": "incorrect"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "20c289ac-7316-479e-87d1-8986a974666d",
+      "data": [
+        {
+          "text": "No"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "0c781c0c-427c-45d8-b64f-5bc7f7f9adb2",
+  "name": "1.2 PRB4094487-Compose-No",
+  "auto": true,
+  "contexts": [
+    "Compose",
+    "Resolution"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "No-Resolution",
+          "lifespan": 0
+        },
+        {
+          "name": "Resolution",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Compose",
+          "value": "No"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ok... Anything else you want to know?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

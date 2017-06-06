@@ -1,0 +1,30 @@
+{
+  "id": "d97203f3-23fe-43ff-b1d4-0bf4e1a636d2",
+  "name": "PRB4083177",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "E6428 NO TRACE OF NINO AT OFFICE INDICATED BY DCI RECORD; E6642 Error:Record not found at this office-F1 for national search’ on clicking Close RM Case button",
+      "synonyms": [
+        "E6428 NO TRACE OF NINO AT OFFICE INDICATED BY DCI RECORD",
+        " E6642 Error:Record not found at this office-F1 for national search’ on clicking Close RM Case button"
+      ]
+    },
+    {
+      "value": "No trace of nino at office indicated by DCI record",
+      "synonyms": [
+        "No trace of nino at office indicated by DCI record",
+        "E6428"
+      ]
+    },
+    {
+      "value": "E6642",
+      "synonyms": [
+        "E6642",
+        "Record not found at this office-F1 for national search on clicking close RM Case button"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

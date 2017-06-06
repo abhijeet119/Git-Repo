@@ -1,0 +1,81 @@
+{
+  "userSays": [
+    {
+      "id": "f9fd196b-5335-4d46-b26b-7a99a91f91b0",
+      "data": [
+        {
+          "text": "eligibility for budgeting",
+          "alias": "EligibilityAdvBudget",
+          "meta": "@EligibilityAdvBudget",
+          "userDefined": true
+        },
+        {
+          "text": " advance"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "03f10a1f-e495-4e6b-a9a5-cb0fb4151ab6",
+      "data": [
+        {
+          "text": "eligible for advance budget",
+          "alias": "EligibilityAdvBudget",
+          "meta": "@EligibilityAdvBudget",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "745983cb-66b5-465b-b4a8-20ab294278a8",
+      "data": [
+        {
+          "text": "What is the "
+        },
+        {
+          "text": "eligibility for Advance",
+          "alias": "EligibilityAdvBudget",
+          "meta": "@EligibilityAdvBudget",
+          "userDefined": true
+        },
+        {
+          "text": " budget"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "1ebc7666-b63f-4e13-9779-ef96ea3bc8cf",
+  "name": "Advance.budget.eligibility",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "advance.budget.eligible",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@EligibilityAdvBudget",
+          "name": "EligibilityAdvBudget",
+          "value": "$EligibilityAdvBudget"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "To get a Budgeting Advance, you must have:\n\n1. Been getting Universal Credit, Employment and Support Allowance, Income Support, Jobseeker’s Allowance or State Pension Credit for 6 months or more, unless you 2. Need the money to help you start a new job or keep an existing job\n3. Earned less than £2,600 (£3,600 together for couples) in the past 6 months\n4. Paid off any previous Budgeting Advances"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

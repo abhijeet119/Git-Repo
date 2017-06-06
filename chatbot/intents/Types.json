@@ -1,0 +1,50 @@
+{
+  "userSays": [
+    {
+      "id": "e9e13879-a5ba-4fa8-8840-3182356d74cc",
+      "data": [
+        {
+          "text": "Types of "
+        },
+        {
+          "text": "Benefit",
+          "alias": "Benefit",
+          "meta": "@Benefit",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "e77daee8-a097-47f1-b7ae-11ab560f94aa",
+  "name": "Types",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Benefit",
+          "name": "Benefit",
+          "value": "$Benefit",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Universal Credit"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

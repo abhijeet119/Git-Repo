@@ -1,0 +1,18 @@
+{
+  "id": "1f83e96b-266a-468b-99d0-51f05340947c",
+  "name": "Work",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Work",
+      "synonyms": [
+        "Work",
+        "works",
+        "worked",
+        "working"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

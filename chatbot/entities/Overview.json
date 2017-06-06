@@ -1,0 +1,39 @@
+{
+  "id": "64ea5214-70c1-441a-bc9e-a724c6505d61",
+  "name": "Overview",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Universal Credit is a welfare benefit introduced in the United Kingdom in 2013 to replace six means-tested benefits and tax credits: income based Jobseeker\u0027s Allowance, Housing Benefit, Working Tax Credit, Child Tax Credit, income based Employment and Support Allowance and Income Support.",
+      "synonyms": [
+        "Universal Credit is a welfare benefit introduced in the United Kingdom in 2013 to replace six means-tested benefits and tax credits: income based Jobseeker\u0027s Allowance, Housing Benefit, Working Tax Credit, Child Tax Credit, income based Employment and Support Allowance and Income Support."
+      ]
+    },
+    {
+      "value": "You may be able to claim Universal Credit if you’re on a low income or out of work. You don’t need to do anything if you’re already claiming other benefits.",
+      "synonyms": [
+        "You may be able to claim Universal Credit if you’re on a low income or out of work. You don’t need to do anything if you’re already claiming other benefits."
+      ]
+    },
+    {
+      "value": "Universal Credit",
+      "synonyms": [
+        "Universal Credit"
+      ]
+    },
+    {
+      "value": "UC",
+      "synonyms": [
+        "UC"
+      ]
+    },
+    {
+      "value": "Overview",
+      "synonyms": [
+        "Overview"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "91b77eba-14af-4dcc-ac4b-94c0dd7f10a1",
+  "name": "ApplyBudgetAdvance",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Apply for Budgeting Advance",
+      "synonyms": [
+        "Apply for Budgeting Advance",
+        "Apply for Advance Budgeting"
+      ]
+    },
+    {
+      "value": "apply for advance",
+      "synonyms": [
+        "apply for advance"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

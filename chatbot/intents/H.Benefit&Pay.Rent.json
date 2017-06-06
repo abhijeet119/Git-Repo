@@ -1,0 +1,71 @@
+{
+  "userSays": [
+    {
+      "id": "a8951cdf-2107-4b08-9f95-fd37058e92df",
+      "data": [
+        {
+          "text": "What will happen to "
+        },
+        {
+          "text": "paying my rent and Housing Benefit",
+          "alias": "Housing_Benefit_Pay_Rent",
+          "meta": "@Housing_Benefit_Pay_Rent",
+          "userDefined": true
+        },
+        {
+          "text": " when we move to UC"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "73b2620e-f74c-43f5-a0fa-5f2be49c5f66",
+      "data": [
+        {
+          "text": "What will happen to my "
+        },
+        {
+          "text": "Housing Benefit and paying my rent",
+          "alias": "Housing_Benefit_Pay_Rent",
+          "meta": "@Housing_Benefit_Pay_Rent",
+          "userDefined": true
+        },
+        {
+          "text": " when we move to UC"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "ceb4c6dc-326f-409a-b810-7ec724d5e4c2",
+  "name": "H.Benefit\u0026Pay.Rent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "HousingBenefit.PayingRent",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Housing_Benefit_Pay_Rent",
+          "name": "Housing_Benefit_Pay_Rent",
+          "value": "$Housing_Benefit_Pay_Rent"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Universal Credit may include money towards your housing costs. You’ll have to arrange with your landlord to start paying your own rent, if you don’t do this already.\n\nFind out details of your rent from your landlord, for example:\n\nhow much the rent is and how you need to pay it\nif you need to pay any service charges or bills, for example gas and electricity\nTalk to your landlord or Jobcentre Plus work coach if you think you’ll have problems paying your own rent."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

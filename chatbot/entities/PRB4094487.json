@@ -1,0 +1,48 @@
+{
+  "id": "af51a134-2d92-48e4-84eb-5bb773715c06",
+  "name": "PRB4094487",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Cases missing",
+      "synonyms": [
+        "Cases missing",
+        "cases gone missing",
+        "cases are missing",
+        "incorrect user queue",
+        "cases in incorrect user queue",
+        "cases in the My Cases view that do not belong to them"
+      ]
+    },
+    {
+      "value": "cases gone missing",
+      "synonyms": [
+        "cases gone missing",
+        "case gone missing"
+      ]
+    },
+    {
+      "value": "cases are missing",
+      "synonyms": [
+        "cases are missing",
+        "Case is missing"
+      ]
+    },
+    {
+      "value": "incorrect user queue",
+      "synonyms": [
+        "incorrect user queue",
+        "wrong user queue"
+      ]
+    },
+    {
+      "value": "cases in the My Cases view that do not belong to them",
+      "synonyms": [
+        "cases in the My Cases view that do not belong to them",
+        "case in the My Cases view do not belong to them"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

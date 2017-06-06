@@ -1,0 +1,34 @@
+{
+  "id": "bf42e892-7efd-4339-8f10-7429a62115db",
+  "name": "EligibilityAdvBudget",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Advanced budget eligibility",
+      "synonyms": [
+        "Advanced budget eligibility",
+        "eligibility for advanced budget"
+      ]
+    },
+    {
+      "value": "eligibility for Advance",
+      "synonyms": [
+        "eligibility for Advance"
+      ]
+    },
+    {
+      "value": "eligible for advance budget",
+      "synonyms": [
+        "eligible for advance budget"
+      ]
+    },
+    {
+      "value": "eligibility for budgeting",
+      "synonyms": [
+        "eligibility for budgeting"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

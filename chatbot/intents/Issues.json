@@ -1,0 +1,89 @@
+{
+  "userSays": [
+    {
+      "id": "b8251e4b-2f20-4ab0-aecd-e0d65ce2fd36",
+      "data": [
+        {
+          "text": "Some users have reported that their "
+        },
+        {
+          "text": "cases are missing",
+          "alias": "PRB4094487",
+          "meta": "@PRB4094487",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "21afb99b-f89f-4c5f-bbd5-a5a26f306716",
+      "data": [
+        {
+          "text": "Case seen in "
+        },
+        {
+          "text": "incorrect user queue",
+          "alias": "PRB4094487",
+          "meta": "@PRB4094487",
+          "userDefined": false
+        },
+        {
+          "text": " or gone missing"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0d427bb7-b5a0-495b-846e-211bba2cb37e",
+      "data": [
+        {
+          "text": "Users have reported that they can see "
+        },
+        {
+          "text": "cases in the My Cases view that do not belong to them",
+          "alias": "PRB4094487",
+          "meta": "@PRB4094487",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "ed7d9310-751f-421f-9369-428294578d38",
+  "name": "Issues",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "issue.request",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@PRB4094487",
+          "name": "PRB4094487",
+          "value": "$PRB4094487",
+          "prompts": [
+            "Ok.. We have an existing incidents regarding this issue . Do you want see the resolution?"
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": "5ee1285d-443d-4174-9454-28101c01bf6d",
+  "name": "BudgetingAdvance",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Advance Budgeting",
+      "synonyms": [
+        "Advance Budgeting",
+        "Advance Budget",
+        "Budgeting Advance"
+      ]
+    },
+    {
+      "value": "loan to",
+      "synonyms": [
+        "loan to"
+      ]
+    },
+    {
+      "value": "pay for emergency",
+      "synonyms": [
+        "pay for emergency"
+      ]
+    },
+    {
+      "value": "loan for",
+      "synonyms": [
+        "loan for"
+      ]
+    },
+    {
+      "value": "budgeting in advance",
+      "synonyms": [
+        "budgeting in advance"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

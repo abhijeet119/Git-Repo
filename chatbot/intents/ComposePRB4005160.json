@@ -1,0 +1,45 @@
+{
+  "userSays": [
+    {
+      "id": "02fba605-7cf4-4b0a-aa97-89737d6d640c",
+      "data": [
+        {
+          "text": "Entry must equal the sum of all components entered error on make payment for an NSP customer"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    }
+  ],
+  "id": "5bf99a5c-646d-40bb-9dd4-d0a8cd5a7ccd",
+  "name": "ComposePRB4005160",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Compose4005160",
+          "lifespan": 5
+        },
+        {
+          "name": "Resolution4005160",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "OK...Would you like to see the Resolution?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

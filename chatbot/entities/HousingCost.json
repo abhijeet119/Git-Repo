@@ -1,0 +1,21 @@
+{
+  "id": "53e6c97b-9fb7-4bad-add6-5468076a0749",
+  "name": "HousingCost",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Housing Cost",
+      "synonyms": [
+        "Housing Cost"
+      ]
+    },
+    {
+      "value": "get housing costs",
+      "synonyms": [
+        "get housing costs"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

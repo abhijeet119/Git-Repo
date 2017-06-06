@@ -1,0 +1,33 @@
+{
+  "id": "54001dce-ae3e-4da0-97e5-34077e3582cf",
+  "name": "PRB4074634",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "UC – Changes made to name via Edit Claim Data and Levers, service temporarily unavailable",
+      "synonyms": [
+        "UC – Changes made to name via Edit Claim Data and Levers, service temporarily unavailable"
+      ]
+    },
+    {
+      "value": "Instead of making changes to the claimant’s name by reporting  a CoC using the Report changes button, the agent uses the Edit Claim Data and Lever portal to change the claimant’s data.",
+      "synonyms": [
+        "Instead of making changes to the claimant’s name by reporting  a CoC using the Report changes button, the agent uses the Edit Claim Data and Lever portal to change the claimant’s data."
+      ]
+    },
+    {
+      "value": "The agent changes the claim data using Edit Claim Data and Levers rather than reporting a CoC using the Report changes button",
+      "synonyms": [
+        "The agent changes the claim data using Edit Claim Data and Levers rather than reporting a CoC using the Report changes button"
+      ]
+    },
+    {
+      "value": "CoC",
+      "synonyms": [
+        "CoC"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

@@ -1,0 +1,64 @@
+{
+  "userSays": [
+    {
+      "id": "f10e98ee-87b1-4d15-af27-b471ab3a420a",
+      "data": [
+        {
+          "text": "what i have "
+        },
+        {
+          "text": "got",
+          "alias": "Get",
+          "meta": "@Get",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7256adc6-a92f-44eb-92df-279ca9888088",
+      "data": [
+        {
+          "text": "What I will "
+        },
+        {
+          "text": "get",
+          "alias": "Get",
+          "meta": "@Get",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "6ea876dd-2cd5-45b3-bb5a-d3be35795cdb",
+  "name": "Customer.Get",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Get",
+          "name": "Get",
+          "value": "$Get"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "The amount of Universal Credit you can get depends on your circumstances and income.\n\nYour Universal Credit payment is made up of a basic ‘standard allowance’ and any extra amounts that apply to you."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

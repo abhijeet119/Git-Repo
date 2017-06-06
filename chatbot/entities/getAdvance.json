@@ -1,0 +1,15 @@
+{
+  "id": "42987673-2308-4a82-a922-dbb23f4bf0d6",
+  "name": "getAdvance",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Get Advance Budget",
+      "synonyms": [
+        "Get Advance Budget"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

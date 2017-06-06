@@ -1,0 +1,81 @@
+{
+  "userSays": [
+    {
+      "id": "41ae0436-18af-40f0-902e-e5d6bb51820e",
+      "data": [
+        {
+          "text": "The agent changes the claim data using Edit Claim Data and Levers rather than reporting a CoC using the Report changes button"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+    {
+      "id": "7518e89a-8ea6-43d1-91f2-e3f79ea24e21",
+      "data": [
+        {
+          "text": "Instead of making changes to the claimant\u0027s name by reporting  a "
+        },
+        {
+          "text": "CoC",
+          "alias": "PRB4074634",
+          "meta": "@PRB4074634",
+          "userDefined": true
+        },
+        {
+          "text": " using the Report changes button, the agent uses the Edit Claim Data and Lever portal to change the claimant\u0027s data"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bc09c1a6-a2ac-419f-9b6b-0c23b1de03c2",
+      "data": [
+        {
+          "text": "Changes made to name via Edit Claim Data and Levers, service temporarily unavailable"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    }
+  ],
+  "id": "5544c2ce-da14-42fa-8a77-802f1c2b4f7f",
+  "name": "ComposePRB4074634",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "compose4074634",
+          "lifespan": 5
+        },
+        {
+          "name": "Resolution74634",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@PRB4074634",
+          "name": "PRB4074634",
+          "value": "$PRB4074634",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "OK...Would you like to see the Resolution?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

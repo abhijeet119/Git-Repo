@@ -1,0 +1,82 @@
+{
+  "userSays": [
+    {
+      "id": "1cc5198c-f442-48d1-a07a-59af95516b27",
+      "data": [
+        {
+          "text": "Good",
+          "alias": "Smalltalk",
+          "meta": "@Smalltalk",
+          "userDefined": true
+        },
+        {
+          "text": " Morning"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1a0f27a1-45f7-4cb3-9fa3-21162b5ab355",
+      "data": [
+        {
+          "text": "Hello",
+          "alias": "Smalltalk",
+          "meta": "@Smalltalk",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "92e4a89a-8712-448c-9ff6-16f7014a66be",
+      "data": [
+        {
+          "text": "Hi",
+          "alias": "Smalltalk",
+          "meta": "@Smalltalk",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "f7f43ef1-dec5-4a26-8b60-9e640e5a81b9",
+  "name": "smalltalk",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.greetings",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Smalltalk",
+          "name": "Smalltalk",
+          "value": "$Smalltalk",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Hi!",
+            "Hello!",
+            "Good day!",
+            "Greetings!",
+            "How can i help you ?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

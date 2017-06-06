@@ -1,0 +1,23 @@
+{
+  "id": "7e422d86-969e-4c99-b310-e50292dd8da1",
+  "name": "PR13265",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "PTP CAM – PCRM – Confirm Award. The user received an error Error; E5515 Cheque payment must be made weekly. Refer to Make Payment View",
+      "synonyms": [
+        "PTP CAM – PCRM – Confirm Award. The user received an error Error",
+        " E5515 Cheque payment must be made weekly. Refer to Make Payment View"
+      ]
+    },
+    {
+      "value": "For PCRM case, on click confirm award button. The user received error Error; E5515 Cheque payment must be made weekly. Refer to Make Payment View",
+      "synonyms": [
+        "For PCRM case, on click confirm award button. The user received error Error",
+        " E5515 Cheque payment must be made weekly. Refer to Make Payment View"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

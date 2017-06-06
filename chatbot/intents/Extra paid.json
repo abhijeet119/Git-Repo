@@ -1,0 +1,91 @@
+{
+  "userSays": [
+    {
+      "id": "a096bf90-796a-4ae9-9316-fbb0a6800076",
+      "data": [
+        {
+          "text": "Pays extra",
+          "alias": "extraaPay",
+          "meta": "@extraaPay",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "18f3b150-a705-48eb-a98e-c37719a532e4",
+      "data": [
+        {
+          "text": "Pay too much",
+          "alias": "extraaPay",
+          "meta": "@extraaPay",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ea95e0e3-1778-48a9-ab75-d24f048719a9",
+      "data": [
+        {
+          "text": "what if i have been "
+        },
+        {
+          "text": "extra paid",
+          "alias": "extraaPay",
+          "meta": "@extraaPay",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3deb8230-d7e1-4b9b-9de3-f33b4c9e6240",
+      "data": [
+        {
+          "text": "what if i "
+        },
+        {
+          "text": "paid too much",
+          "alias": "extraaPay",
+          "meta": "@extraaPay",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "70f01178-cf87-4b65-99bb-14fb48a09cab",
+  "name": "Extra paid",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "extra.pay",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@extraaPay",
+          "name": "extraaPay",
+          "value": "$extraaPay"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "You’ll have to repay the money if you:\n\n1. Didn’t report a change straight away\n2. Gave wrong information\n3. Were overpaid by mistake\nYou could be prosecuted or fined if you give wrong or incomplete information, or you don’t report changes straight away.\n\nor\n\nCall the Universal Credit helpline to report changes in your circumstances.\n\nUniversal Credit helpline\nTelephone: 0345 600 0723 \nTextphone: 0345 600 0743 \nMonday to Friday, 8am to 6pm"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

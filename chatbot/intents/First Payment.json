@@ -1,0 +1,50 @@
+{
+  "userSays": [
+    {
+      "id": "aacba8db-496b-417a-8f43-421842dcc6fd",
+      "data": [
+        {
+          "text": "How to claim your "
+        },
+        {
+          "text": "first Payment",
+          "alias": "FirstPayment",
+          "meta": "@FirstPayment",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "71fba467-198a-4d1d-a617-abfa9cee82d9",
+  "name": "First Payment",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "first.payment",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@FirstPayment",
+          "name": "FirstPayment",
+          "value": "$FirstPayment",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "You’ll get a statement and your first monthly payment around 6 weeks after you’ve finished applying for Universal Credit.\n\nYour statement will tell you:\n\nwhen you’ll normally get paid\nhow much you’ll be paid\nwhich bank account it’ll be paid into\nIf you won’t have enough money to live on while you wait for your first payment, call the helpline to ask for an advance payment. You’ll repay it through your regular Universal Credit payments - they’ll be lower until you pay it back.\n\nYou’ll get your first payment 1 week sooner if you:\n\nare claiming Universal Credit as a couple and will now claim by yourself\nare claiming Universal Credit by yourself and will now claim as a couple\nclaimed Universal Credit within the last 6 months but left because you earned too much to continue claiming\nare terminally ill\nhave been the victim of domestic violence within the last 6 months\nare 16 or 17 years old and have no parental support\nhave been in care, are under 22 and this is your first Universal Credit claim\nhave left prison in the last month\nwere entitled to contribution-based Jobseekers Allowance (JSA) or Employment and Support Allowance (ESA) within the last 3 months\nwere entitled to income-based JSA, ESA or Income Support within the last 3 months and stopped claiming to start working\nwere entitled to income-based JSA, ESA or Income Support within the last month\nwere entitled to Working Tax Credit, Child Tax Credit or Housing Benefit within the last month\nIf you’re getting income from"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

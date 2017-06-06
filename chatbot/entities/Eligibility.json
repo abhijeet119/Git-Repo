@@ -1,0 +1,22 @@
+{
+  "id": "17ed733f-3047-4607-b3a7-1e053e44f254",
+  "name": "Eligibility",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Eligible",
+      "synonyms": [
+        "Eligible",
+        "Eligiblity"
+      ]
+    },
+    {
+      "value": "Eligibility",
+      "synonyms": [
+        "Eligibility"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

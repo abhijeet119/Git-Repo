@@ -1,0 +1,64 @@
+{
+  "userSays": [
+    {
+      "id": "74bce621-4c14-4441-9177-e89de9ee5e0b",
+      "data": [
+        {
+          "text": "how to accept Claimant "
+        },
+        {
+          "text": "Commitment",
+          "alias": "Claimentcommitment",
+          "meta": "@Claimentcommitment",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2a0cd3b3-50b6-42a0-8adf-1c9dc7df92dd",
+      "data": [
+        {
+          "text": "What is Claimant "
+        },
+        {
+          "text": "Commitment",
+          "alias": "Claimentcommitment",
+          "meta": "@Claimentcommitment",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "37e2c017-6598-47f8-9428-e1d3f4bed5c6",
+  "name": "Claim.Commitment",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Claimentcommitment",
+          "name": "Claimentcommitment",
+          "value": "$Claimentcommitment"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "You’ll have to accept a ‘Claimant Commitment’ if you want to get Universal Credit.\n\nThis is an agreement that you’ll complete certain tasks in order to claim Universal Credit.\n\nWhat you agree to do will depend on things such as your health, your responsibilities at home and how much help you need to get work or increase your income.\n\nYour Universal Credit payments will be stopped if you don’t keep to your Claimant Commitment."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

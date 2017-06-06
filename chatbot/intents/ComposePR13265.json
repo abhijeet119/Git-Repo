@@ -1,0 +1,93 @@
+{
+  "userSays": [
+    {
+      "id": "ac2b1056-df05-4e35-8ff1-8f5bc6528311",
+      "data": [
+        {
+          "text": "I am receiving error Error; "
+        },
+        {
+          "text": "E5515",
+          "alias": "PR13265",
+          "meta": "@PR13265",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b7ca5c6e-1c82-49e3-acb4-a8f30161008d",
+      "data": [
+        {
+          "text": "user received error Error; "
+        },
+        {
+          "text": "E5515",
+          "alias": "PR13265",
+          "meta": "@PR13265",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Cheque payment must be made weekly. Refer to Make Payment View",
+          "alias": "PR13265",
+          "meta": "@PR13265",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0b825af2-0675-4811-bca2-582bd01b6c28",
+      "data": [
+        {
+          "text": "For PCRM case, on click confirm award button. The user received error Error; E5515 Cheque payment must be made weekly. Refer to Make Payment View"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    }
+  ],
+  "id": "5743814d-4221-40ce-b2ca-d79bf8ec2881",
+  "name": "ComposePR13265",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "compose13265",
+          "lifespan": 5
+        },
+        {
+          "name": "Resolution13265",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@PR13265",
+          "name": "PR13265",
+          "value": "$PR13265",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "OK...Would you like to see the resolution?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

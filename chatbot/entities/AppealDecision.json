@@ -1,0 +1,16 @@
+{
+  "id": "2aeddf9f-b846-43c6-a6f6-9b429dbb0937",
+  "name": "AppealDecision",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Appeal Decision",
+      "synonyms": [
+        "Appeal Decision",
+        "appeal a decision"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

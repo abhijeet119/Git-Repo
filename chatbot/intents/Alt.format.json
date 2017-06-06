@@ -1,0 +1,65 @@
+{
+  "userSays": [
+    {
+      "id": "5c4ed363-ffdc-4478-8acd-463bbc9452bf",
+      "data": [
+        {
+          "text": "how to get "
+        },
+        {
+          "text": "alternative format",
+          "alias": "Alternativeformat",
+          "meta": "@Alternativeformat",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2974e44b-7abf-46b7-8bea-9d07e5740998",
+      "data": [
+        {
+          "text": "What is "
+        },
+        {
+          "text": "alternative format",
+          "alias": "Alternativeformat",
+          "meta": "@Alternativeformat",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "a3877f04-6753-41c4-a050-9ea3c4d58379",
+  "name": "Alt.format",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "alt.frmt",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Alternativeformat",
+          "name": "Alternativeformat",
+          "value": "$Alternativeformat"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Call the Universal Credit helpline to ask for alternative formats, such as braille, large print or audio CD."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

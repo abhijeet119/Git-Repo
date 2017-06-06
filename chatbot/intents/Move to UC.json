@@ -1,0 +1,65 @@
+{
+  "userSays": [
+    {
+      "id": "7d5cc260-d82a-4fd0-bea9-5febb224da85",
+      "data": [
+        {
+          "text": "When I "
+        },
+        {
+          "text": "move to Universal Credit",
+          "alias": "Move_to_UC",
+          "meta": "@Move_to_UC",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0acd2246-2cf5-4689-b6af-59bbe69f8c58",
+      "data": [
+        {
+          "text": "what if i "
+        },
+        {
+          "text": "move to uc",
+          "alias": "Move_to_UC",
+          "meta": "@Move_to_UC",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "2fb5ded8-8cea-483d-abad-858f0d4cafee",
+  "name": "Move to UC",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "move.to.uc",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Move_to_UC",
+          "name": "Move_to_UC",
+          "value": "$Move_to_UC"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Once you’ve claimed Universal Credit, any benefits that it replaces will stop. You’ll start getting Universal Credit instead.\n\nYour benefits may end before your Universal Credit starts. If you won’t have enough money to live on before it starts, call the helpline to ask for an advance payment. You’ll repay it through your regular Universal Credit payments - they’ll be lower until you pay it back."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

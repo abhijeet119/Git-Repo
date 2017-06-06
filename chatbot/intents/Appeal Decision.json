@@ -1,0 +1,65 @@
+{
+  "userSays": [
+    {
+      "id": "7f6b85dc-a648-4ea8-826c-a9514085658a",
+      "data": [
+        {
+          "text": "what is "
+        },
+        {
+          "text": "appeal decision",
+          "alias": "AppealDecision",
+          "meta": "@AppealDecision",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c77f35a1-57d6-42d2-acab-3aa7f977e37f",
+      "data": [
+        {
+          "text": "How can i "
+        },
+        {
+          "text": "appeal decision",
+          "alias": "AppealDecision",
+          "meta": "@AppealDecision",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "5b527131-7661-4ec0-8029-7562b7bbd0f5",
+  "name": "Appeal Decision",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "appeal.decision",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@AppealDecision",
+          "name": "AppealDecision",
+          "value": "$AppealDecision"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "You can appeal a decision about:\n\n1. Your initial claim\n2. The amount of an award\n3. A sanction\nAsk for a ‘mandatory reconsideration’ of the decision. You need to do this within 1 month of the decision.\n\nYou’ll get a letter saying whether the decision’s been changed.\n\nIf you don’t agree with what the letter says, you can usually appeal to the Social Security and Child Support Tribunal. The letter will say if you can’t do this."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

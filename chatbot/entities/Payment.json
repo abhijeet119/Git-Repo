@@ -1,0 +1,24 @@
+{
+  "id": "d601653a-5148-44a5-ad34-cac8070ae0f7",
+  "name": "Payment",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Payment",
+      "synonyms": [
+        "Payment",
+        "Paid",
+        "Pay",
+        "Pays"
+      ]
+    },
+    {
+      "value": "First Payment",
+      "synonyms": [
+        "First Payment"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

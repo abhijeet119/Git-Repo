@@ -1,0 +1,93 @@
+{
+  "userSays": [
+    {
+      "id": "0ee08dbb-e0a2-4c66-97a9-b9dc87b44e45",
+      "data": [
+        {
+          "text": "How to "
+        },
+        {
+          "text": "Claim",
+          "alias": "Claim",
+          "meta": "@Claim",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7b1959b6-86bb-44b5-bb99-a28387b05ed2",
+      "data": [
+        {
+          "text": "How can I "
+        },
+        {
+          "text": "claim",
+          "alias": "Claim",
+          "meta": "@Claim",
+          "userDefined": true
+        },
+        {
+          "text": " Universal Credit"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4a4d3b22-36f6-4f15-b3ae-adcaec569bc2",
+      "data": [
+        {
+          "text": "How can i "
+        },
+        {
+          "text": "Claim",
+          "alias": "Claim",
+          "meta": "@Claim",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "UC",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "a3412265-57b9-4bf9-bfba-a819030fe1f4",
+  "name": "UC.Claim",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "How.Claim",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Claim",
+          "name": "Claim",
+          "value": "$Claim",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "You can claim Universal Credit online. url \u003d https://www.gov.uk/apply-universal-credit\nContact the Universal Credit helpline if:\n\n1. You have any questions\n2. Your circumstances change and you’re already getting Universal Credit"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

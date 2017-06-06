@@ -1,0 +1,94 @@
+{
+  "userSays": [
+    {
+      "id": "83592cbd-1b7f-4eb4-bb3c-f6b9d7c605e1",
+      "data": [
+        {
+          "text": "How i will get "
+        },
+        {
+          "text": "budgeting in advance",
+          "alias": "BudgetingAdvance",
+          "meta": "@BudgetingAdvance",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9651beb2-7630-4177-be19-2bfada982a62",
+      "data": [
+        {
+          "text": "how can i get "
+        },
+        {
+          "text": "loan for",
+          "alias": "BudgetingAdvance",
+          "meta": "@BudgetingAdvance",
+          "userDefined": true
+        },
+        {
+          "text": " household"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c310fcb3-0de0-479c-a115-8ac5eaf6e768",
+      "data": [
+        {
+          "text": "how can i get a "
+        },
+        {
+          "text": "loan to",
+          "alias": "BudgetingAdvance",
+          "meta": "@BudgetingAdvance",
+          "userDefined": true
+        },
+        {
+          "text": " help "
+        },
+        {
+          "text": "pay for emergency",
+          "alias": "BudgetingAdvance",
+          "meta": "@BudgetingAdvance",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "828c341e-e2d1-4925-a229-a2872c6783e2",
+  "name": "Advance Budget",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "budget.advance",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@BudgetingAdvance",
+          "name": "BudgetingAdvance",
+          "value": "$BudgetingAdvance",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "You can get a loan to help pay for emergency household costs (eg buying a new cooker) or for help getting a job or staying in work. This is called a Budgeting Advance.\n\nYou’ll repay it through your regular Universal Credit payments - they’ll be lower until you pay it back. You’ll be told how much your payments will be reduced by.\n\nYou’ll have to agree another way to repay if you stop getting Universal Credit."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

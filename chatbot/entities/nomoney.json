@@ -1,0 +1,29 @@
+{
+  "id": "8afe1597-840e-4da6-a94c-eda7525874d6",
+  "name": "nomoney",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "No Money",
+      "synonyms": [
+        "No Money",
+        "not enough money",
+        "without enough money"
+      ]
+    },
+    {
+      "value": "enough money",
+      "synonyms": [
+        "enough money"
+      ]
+    },
+    {
+      "value": "without money",
+      "synonyms": [
+        "without money"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "3e9f2d1b-b143-4215-b121-2939a65d5541",
+  "name": "Claim",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Claim",
+      "synonyms": [
+        "Claim",
+        "Apply"
+      ]
+    },
+    {
+      "value": "UC",
+      "synonyms": [
+        "UC"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

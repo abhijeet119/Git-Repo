@@ -1,0 +1,50 @@
+{
+  "userSays": [
+    {
+      "id": "da54db60-d6fb-440d-9bf5-05c8aab855f3",
+      "data": [
+        {
+          "text": "I don\u0027t know"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "21547ecb-389c-4871-8855-b5f131275312",
+  "name": "1.3 Resolution-unknown",
+  "auto": true,
+  "contexts": [
+    "Resolution"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "confirmation.unknown",
+      "affectedContexts": [
+        {
+          "name": "Resolution",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Please say \u0027Yes\u0027 or \u0027No\u0027 ."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

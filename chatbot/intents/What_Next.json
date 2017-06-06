@@ -1,0 +1,69 @@
+{
+  "userSays": [
+    {
+      "id": "2f1dcba4-89c3-4c3b-9d47-3eb941be55cb",
+      "data": [
+        {
+          "text": "I have a Query"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "53df0974-0774-43e8-90cf-5ede168905f3",
+      "data": [
+        {
+          "text": "i want to ask"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8ee7aa3a-d31e-482d-a7f0-f97bcbd6823a",
+      "data": [
+        {
+          "text": "Yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "a7590e3b-a1d8-4dae-abc6-5861a9237184",
+  "name": "What_Next",
+  "auto": true,
+  "contexts": [
+    "Yes-Resolution",
+    "Resolution"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "yes.next",
+      "affectedContexts": [
+        {
+          "name": "Yes-Resolution",
+          "lifespan": 1
+        },
+        {
+          "name": "Resolution",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "OK.. What do you want to know?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

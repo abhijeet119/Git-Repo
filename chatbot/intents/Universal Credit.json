@@ -1,0 +1,147 @@
+{
+  "userSays": [
+    {
+      "id": "b471815e-3062-4b9b-8784-1c7d6eac0536",
+      "data": [
+        {
+          "text": "Overview",
+          "alias": "Overview",
+          "meta": "@Overview",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f8fd1991-937b-4280-9a71-1a50f7318ffa",
+      "data": [
+        {
+          "text": "Tell me about "
+        },
+        {
+          "text": "UC",
+          "alias": "Overview",
+          "meta": "@Overview",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dd2652b4-e0cd-4e0a-9b20-0c8f802d410c",
+      "data": [
+        {
+          "text": "Tell me about "
+        },
+        {
+          "text": "Universal Credit",
+          "alias": "Overview",
+          "meta": "@Overview",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5f844643-6908-40dc-91d6-67cc6f25e48a",
+      "data": [
+        {
+          "text": "Define "
+        },
+        {
+          "text": "Universal Credit",
+          "alias": "Overview",
+          "meta": "@Overview",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f12f680a-fe57-4949-8af0-77b9ad023859",
+      "data": [
+        {
+          "text": "Define "
+        },
+        {
+          "text": "UC",
+          "alias": "Overview",
+          "meta": "@Overview",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e6d864df-aa92-4e6d-b017-21e9bb98000f",
+      "data": [
+        {
+          "text": "What is "
+        },
+        {
+          "text": "UC",
+          "alias": "Overview",
+          "meta": "@Overview",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c579afbe-9372-4bc5-8fdf-b2f7404e0ece",
+      "data": [
+        {
+          "text": "What is "
+        },
+        {
+          "text": "Universal Credit",
+          "alias": "Overview",
+          "meta": "@Overview",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "5ffc0fba-5131-424f-8187-608804f03289",
+  "name": "Universal Credit",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Overview",
+          "name": "Overview",
+          "value": "$Overview"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Universal Credit is a welfare benefit introduced in the United Kingdom in 2013 to replace six means-tested benefits and tax credits: income based Jobseeker\u0027s Allowance, Housing Benefit, Working Tax Credit, Child Tax Credit, income based Employment and Support Allowance and Income Support.\nYou may be able to claim Universal Credit if you’re on a low income or out of work. You don’t need to do anything if you’re already claiming other benefits."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

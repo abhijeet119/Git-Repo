@@ -1,0 +1,27 @@
+{
+  "id": "2883440a-d77a-4eca-9702-952f43317e2f",
+  "name": "PTP",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "PTP",
+      "synonyms": [
+        "PTP"
+      ]
+    },
+    {
+      "value": "case in PTP",
+      "synonyms": [
+        "case in PTP"
+      ]
+    },
+    {
+      "value": "a case in PTP",
+      "synonyms": [
+        "a case in PTP"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

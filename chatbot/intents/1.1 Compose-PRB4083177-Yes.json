@@ -1,0 +1,63 @@
+{
+  "userSays": [
+    {
+      "id": "5c365bb0-fc56-4d9d-a81f-e9bac2a86ba3",
+      "data": [
+        {
+          "text": "Correct"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "19ab997d-5ca5-48c2-a7ee-55bd17b7037d",
+      "data": [
+        {
+          "text": "Yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b3c4d48c-4abe-4c2d-be79-36644a5afe51",
+  "name": "1.1 Compose-PRB4083177-Yes",
+  "auto": true,
+  "contexts": [
+    "Compose1",
+    "Resolution1"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Yes1Resolution",
+          "lifespan": 5
+        },
+        {
+          "name": "Resolution1",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Compose",
+          "value": "Yes"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Resolution : The issue reported is that the user is unable to close the RM case due to error ‘E6428 NO TRACE OF NINO AT OFFICE INDICATED BY DCI RECORD; E6642 Error:Record not found at this office-F1 for national search’\nThe issue is that the user has updated the Review Type in the PCRM Picklist view of the RM case even though the customer does not have any PC benefit. Due to this change CAM is sending a PCANSOD request to ISCS from where this error is generated.\nAs a workaround, the user needs to remove the ‘Standard Change’ value from the Review type in the PCRM picklist view and retry closing the case."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

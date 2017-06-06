@@ -1,0 +1,34 @@
+{
+  "id": "3b125b2e-e243-47e8-ba4f-2672e30cd786",
+  "name": "Smalltalk",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Smalltalk",
+      "synonyms": [
+        "Smalltalk",
+        "Greetings"
+      ]
+    },
+    {
+      "value": "Hello",
+      "synonyms": [
+        "Hello"
+      ]
+    },
+    {
+      "value": "Hi",
+      "synonyms": [
+        "Hi"
+      ]
+    },
+    {
+      "value": "Good",
+      "synonyms": [
+        "Good"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

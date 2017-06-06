@@ -1,0 +1,83 @@
+{
+  "userSays": [
+    {
+      "id": "6d932ba7-0812-47cd-8416-9a9443bd6976",
+      "data": [
+        {
+          "text": "how i will "
+        },
+        {
+          "text": "report",
+          "alias": "Report_Change",
+          "meta": "@Report_Change",
+          "userDefined": true
+        },
+        {
+          "text": " my "
+        },
+        {
+          "text": "changes",
+          "alias": "Report_Change",
+          "meta": "@Report_Change",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6fd8f40e-8e03-4ada-80ee-d5589cdee28b",
+      "data": [
+        {
+          "text": "What "
+        },
+        {
+          "text": "changes",
+          "alias": "Report_Change",
+          "meta": "@Report_Change",
+          "userDefined": true
+        },
+        {
+          "text": " i need to "
+        },
+        {
+          "text": "report",
+          "alias": "Report_Change",
+          "meta": "@Report_Change",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "9c76532a-4c79-4925-a4e2-e821ef9dc748",
+  "name": "report changes",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Report_Change",
+          "name": "Report_Change",
+          "value": "$Report_Change",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Your Universal Credit may be stopped or reduced if you don’t report changes in your circumstances straight away.\n\nChanges can include:\n\n1. Finding or finishing a job\n2. A change to your address\n3. A change to your banking details\n4. Your rent going up or down\n5. Becoming too ill to work or meet your work coach\nYou don’t need to report any changes to your income unless you’re self-employed."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

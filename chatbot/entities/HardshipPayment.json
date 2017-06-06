@@ -1,0 +1,15 @@
+{
+  "id": "0170ddf9-6ede-4d16-8f6b-06d221c82fcd",
+  "name": "HardshipPayment",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Hardship Payment",
+      "synonyms": [
+        "Hardship Payment"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

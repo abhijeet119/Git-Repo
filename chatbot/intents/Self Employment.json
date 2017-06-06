@@ -1,0 +1,95 @@
+{
+  "userSays": [
+    {
+      "id": "c7b83d58-fd8f-416f-8cd4-e5decad7e579",
+      "data": [
+        {
+          "text": "self-employment",
+          "alias": "Self_Employment",
+          "meta": "@Self_Employment",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "37461095-6a00-432a-8a39-ad9dc2c36e86",
+      "data": [
+        {
+          "text": "How to claim for "
+        },
+        {
+          "text": "self-employment",
+          "alias": "Self_Employment",
+          "meta": "@Self_Employment",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "16110d17-a8df-4af6-8f99-c2e9323d04a1",
+      "data": [
+        {
+          "text": "How to Claim If you\u0027re getting income from "
+        },
+        {
+          "text": "self-employment",
+          "alias": "Self_Employment",
+          "meta": "@Self_Employment",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b3ee1049-b593-41d1-b499-13654814b83a",
+      "data": [
+        {
+          "text": "How to Claim If you\u0027re getting income from "
+        },
+        {
+          "text": "self employment",
+          "alias": "Self_Employment",
+          "meta": "@Self_Employment",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "dc9323e6-414a-4165-88c1-66ed953a9e19",
+  "name": "Self Employment",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "self.employment",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Self_Employment",
+          "name": "Self_Employment",
+          "value": "$Self_Employment",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "You need to report your earnings every month when you get Universal Credit.\n\nYou’ll be sent a ‘Statement of Earnings’ form.\n\nUse this to record any income received and expenses paid during your ‘assessment period’ (your Statement of Earnings form will tell you when this starts and ends).\n\nReport your earnings by calling the Universal Credit helpline within 14 days of the end of each assessment period."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

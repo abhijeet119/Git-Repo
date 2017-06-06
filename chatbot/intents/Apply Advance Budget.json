@@ -1,0 +1,52 @@
+{
+  "userSays": [
+    {
+      "id": "eb74f736-bc65-45a2-8b60-60799fffa557",
+      "data": [
+        {
+          "text": "How to "
+        },
+        {
+          "text": "apply for advance",
+          "alias": "ApplyBudgetAdvance",
+          "meta": "@ApplyBudgetAdvance",
+          "userDefined": true
+        },
+        {
+          "text": " budgeting"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "122c3977-83e7-4f5e-aca4-227621464b3e",
+  "name": "Apply Advance Budget",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "apply.advance.budget",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@ApplyBudgetAdvance",
+          "name": "ApplyBudgetAdvance",
+          "value": "$ApplyBudgetAdvance"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Contact your work coach at your local Jobcentre Plus to apply.\n\nor go to\n\nhttp://los.direct.gov.uk/default.aspx?type\u003d1\u0026lang\u003den"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

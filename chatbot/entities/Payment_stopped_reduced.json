@@ -1,0 +1,30 @@
+{
+  "id": "4ff254e2-dab1-4364-ac1c-a68a3c6b6e04",
+  "name": "Payment_stopped_reduced",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Payment Stopped",
+      "synonyms": [
+        "Payment Stopped",
+        "Payment Reduced",
+        "Payment Stop",
+        "Pasyment Reduce"
+      ]
+    },
+    {
+      "value": "stopped",
+      "synonyms": [
+        "stopped"
+      ]
+    },
+    {
+      "value": "reduced",
+      "synonyms": [
+        "reduced"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

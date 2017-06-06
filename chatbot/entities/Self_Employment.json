@@ -1,0 +1,21 @@
+{
+  "id": "ebecc2bc-2cf3-4cde-b89f-f6f1090127b0",
+  "name": "Self_Employment",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Self Employment",
+      "synonyms": [
+        "Self Employment"
+      ]
+    },
+    {
+      "value": "self-employment",
+      "synonyms": [
+        "self-employment"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

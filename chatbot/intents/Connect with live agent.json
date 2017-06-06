@@ -1,0 +1,108 @@
+{
+  "userSays": [
+    {
+      "id": "5ad2781d-6a60-4eeb-8d83-704fcd1f7913",
+      "data": [
+        {
+          "text": "It doesn\u0027t help"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b7d03c95-2624-4f10-b903-34fd7ed9b892",
+      "data": [
+        {
+          "text": "It doesn\u0027t help me, I want to ask a real person"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5fec1ff6-dea4-45ea-9712-05754d400b82",
+      "data": [
+        {
+          "text": "can I talk to a real person"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d79cd593-6c80-429d-988c-238e8207fa28",
+      "data": [
+        {
+          "text": "connect me to support team"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "093d89be-2204-48c3-90cd-2df5a7714215",
+      "data": [
+        {
+          "text": "can someone from a real team help me"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "df228e53-f2e1-466a-b1a7-735690391e86",
+      "data": [
+        {
+          "text": "connect me with a live agent"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2380e51a-e69c-46a1-9f04-6dafe98b2fdc",
+      "data": [
+        {
+          "text": "chat with a person"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "233a7000-3ed2-42b3-9f5c-3914f7e7c934",
+  "name": "Connect with live agent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "support.live_person",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "details",
+          "prompts": [
+            "Can you give me some more details of your issue?",
+            "Tell me more, so our support team can give you the best answer.",
+            "Please, elaborate on the issue, so support team can help you."
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Thanks for the information! Our support team will get in touch with you shortly."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

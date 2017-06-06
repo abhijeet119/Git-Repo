@@ -1,0 +1,65 @@
+{
+  "userSays": [
+    {
+      "id": "006f70a3-ac5c-45cb-8046-4b3fc36b4ff0",
+      "data": [
+        {
+          "text": "How it will pay "
+        },
+        {
+          "text": "rent",
+          "alias": "Pay_Rent",
+          "meta": "@Pay_Rent",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0c9cf0cb-cb1b-4e4c-bddb-b3c3fdf9f0cd",
+      "data": [
+        {
+          "text": "How it will pay my "
+        },
+        {
+          "text": "rent",
+          "alias": "Pay_Rent",
+          "meta": "@Pay_Rent",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "55811443-1989-4927-9c6f-fe028563ee41",
+  "name": "Pay.Rent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Paying.Rent",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Pay_Rent",
+          "name": "Pay_Rent",
+          "value": "$Pay_Rent"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "You can get help with housing costs. It’ll be paid to you as part of your monthly Universal Credit payment.\n\nYou’ll have to arrange to start paying your own rent if you used to get Housing Benefit and don’t do this already."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

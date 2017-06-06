@@ -1,0 +1,29 @@
+{
+  "id": "f9c76cec-e467-4258-b710-5944b5911856",
+  "name": "Housing_Benefit_Pay_Rent",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Housing Benefit",
+      "synonyms": [
+        "Housing Benefit",
+        "House Benefit"
+      ]
+    },
+    {
+      "value": "Paying Rent",
+      "synonyms": [
+        "Paying Rent",
+        "Pay Rent"
+      ]
+    },
+    {
+      "value": "paying my rent and Housing Benefit",
+      "synonyms": [
+        "paying my rent and Housing Benefit"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

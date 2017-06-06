@@ -1,0 +1,74 @@
+{
+  "userSays": [
+    {
+      "id": "ac0e3d70-c08c-432e-8de4-10fcf5b8e989",
+      "data": [
+        {
+          "text": "housing"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fb07ebcc-f8e4-4058-ba1f-3f58e9cdd581",
+      "data": [
+        {
+          "text": "How much i will "
+        },
+        {
+          "text": "get housing costs",
+          "alias": "HousingCost",
+          "meta": "@HousingCost",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6abd5c66-30f2-4be5-b76e-509b950ba64e",
+      "data": [
+        {
+          "text": "How can i get "
+        },
+        {
+          "text": "housing cost",
+          "alias": "HousingCost",
+          "meta": "@HousingCost",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "ac827ceb-1aa5-4886-8ff4-89269a3fb45d",
+  "name": "Housing.cost",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@HousingCost",
+          "name": "HousingCost",
+          "value": "$HousingCost"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "You can get more money to help pay your housing costs. How much you get depends on your circumstances. It can cover:\n\n1. Rent\n2. Mortgage interest\n3. Some service charges\n4. Interest on a loan secured against your home"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

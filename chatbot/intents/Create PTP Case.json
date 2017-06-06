@@ -1,0 +1,98 @@
+{
+  "userSays": [
+    {
+      "id": "bba6f4c5-32d4-49fa-a387-836b0eef0b4c",
+      "data": [
+        {
+          "text": "how to create "
+        },
+        {
+          "text": "a case in PTP",
+          "alias": "PTP",
+          "meta": "@PTP",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bbe6dcd5-306e-491d-bf53-a436a9cb7a81",
+      "data": [
+        {
+          "text": "I want to create a "
+        },
+        {
+          "text": "case in PTP",
+          "alias": "PTP",
+          "meta": "@PTP",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cdd8ef4f-1784-49c2-9dad-042a879e98da",
+      "data": [
+        {
+          "text": "How to create  a Case in "
+        },
+        {
+          "text": "PTP",
+          "alias": "PTP",
+          "meta": "@PTP",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "ce6d4a6f-f4d2-42d1-b01d-de51ce4b7ddb",
+  "name": "Create PTP Case",
+  "auto": true,
+  "contexts": [
+    "No-Resolution",
+    "Resolution"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Create.Case.PTP",
+      "affectedContexts": [
+        {
+          "name": "Yes-Resolution",
+          "lifespan": 5
+        },
+        {
+          "name": "Resolution",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "required": false,
+          "dataType": "@PTP",
+          "name": "PTP",
+          "value": "$PTP",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Go to Contact History and Create New SP Claim or New PC Claim"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

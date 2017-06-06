@@ -1,0 +1,101 @@
+{
+  "userSays": [
+    {
+      "id": "b4400d45-d180-4f8f-9de6-eec4db4c48c3",
+      "data": [
+        {
+          "text": "What is "
+        },
+        {
+          "text": "help line",
+          "alias": "Helpline",
+          "meta": "@Helpline",
+          "userDefined": true
+        },
+        {
+          "text": " number"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "65284c91-28ea-4bff-aa82-9d1042e09ef5",
+      "data": [
+        {
+          "text": "call "
+        },
+        {
+          "text": "helpline",
+          "alias": "Helpline",
+          "meta": "@Helpline",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b585a3cc-ecd0-40e2-80ee-f6f37e582705",
+      "data": [
+        {
+          "text": "i want to use "
+        },
+        {
+          "text": "helpline",
+          "alias": "Helpline",
+          "meta": "@Helpline",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "36a099e7-a8d3-472b-8939-9da4a5362768",
+      "data": [
+        {
+          "text": "Can I talk to "
+        },
+        {
+          "text": "helpline",
+          "alias": "Helpline",
+          "meta": "@Helpline",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "74c214fb-0d66-43f3-b8ac-6524720684fd",
+  "name": "UC.Helpline",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Customer.helpline",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Helpline",
+          "name": "Helpline",
+          "value": "$Helpline",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Universal Credit helpline\nTelephone: 0345 600 0723\nWelsh language (make a claim): 0800 012 1888 \nWelsh language (report changes): 0345 600 3018 \nTextphone: 0345 600 0743 \nMonday to Friday, 8am to 6pm"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
